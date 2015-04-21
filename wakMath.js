@@ -7,7 +7,7 @@
  * @method wakSum
  */
 function wakSum(a,b){
-	return a+b+b;
+	return a+b;
 }
 
 // ...
