@@ -1,0 +1,50 @@
+{
+  "name": "WAF-unit-testing-suite",
+  "version": "0.1.0",
+  "description": "WAF unit testing suite",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Wakanda Team",
+  "license": "BSD",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "glob": "^5.0.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib": "^0.11.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-jslint": "^1.1.12",
+    "grunt-karma": "^0.10.1",
+    "jasmine": "^2.2.1",
+    "jasmine-core": "^2.2.0",
+    "js-fixtures": "latest",
+    "jshint-jenkins-checkstyle-reporter": "^0.1.2",
+    "jshint-stylish": "^1.0.1",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chai-plugins": "latest",
+    "karma-chai-sinon": "^0.1.4",
+    "karma-coverage": "^0.3.1",
+    "karma-fixture": "latest",
+    "karma-html-reporter": "^0.2.6",
+    "karma-html2js-preprocessor": "latest",
+    "karma-jasmine": "^0.3.5",
+    "karma-jshint": "latest",
+    "karma-jshint-preprocessor": "latest",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-mocha": "^0.1.10",
+    "karma-osx-reporter": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "karma-script-launcher": "latest",
+    "karma-sinon": "^1.0.4",
+    "load-grunt-tasks": "latest",
+    "lodash": "^3.6.0",
+    "mocha": "^2.2.1",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  }
+}
