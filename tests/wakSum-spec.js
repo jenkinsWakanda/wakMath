@@ -14,6 +14,13 @@ describe("Testing wakSum", function() {
 		expect(result).to.be.equal(4.5);
 	});
 
+	it("wakSum should return NaN when one or more arguments are strings",function(){
+		var c = '123tototata',
+			d = 3,
+			stringResult = wakSum(c,d);
+
+		expect(stringResult).to.deep.equal(NaN);
+	});
 
 });
 /* jshint ignore:end */
