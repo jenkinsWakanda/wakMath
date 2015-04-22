@@ -7,7 +7,10 @@
  * @method wakSum
  */
 function wakSum(a,b){
-	return parseInt(a) + parseInt(b);
+	if(!isNaN(a) && !isNaN(b)){
+		return parseFloat(a) + parseFloat(b);
+	}
+	return NaN;
 }
 
 // ...
